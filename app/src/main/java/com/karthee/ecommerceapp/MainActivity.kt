@@ -41,10 +41,10 @@ class MainActivity : AppCompatActivity() {
     fun checkout(view: View) {        val intent = Intent(applicationContext, PayTabActivity::class.java)
         intent.putExtra(
             PaymentParams.MERCHANT_EMAIL,
-            "merchant-email@example.com"
+            "karthegeyan.k@gmail.com"
         ) //this a demo account for testing the sdk
 
-        intent.putExtra(PaymentParams.SECRET_KEY, "secret key") //Add your Secret Key Here
+        intent.putExtra(PaymentParams.SECRET_KEY, "f0bfMtUbBFP16R5r8NkDoB6ffb38ORZ4RajEDdPfTEh0wnrFbMizooOEASMpJLtBWNfA05PUJ7UfumUF8dewB3acVXBFJ5hFSxfT") //Add your Secret Key Here
 
         intent.putExtra(PaymentParams.LANGUAGE, PaymentParams.ENGLISH)
         intent.putExtra(PaymentParams.TRANSACTION_TITLE, "Test Paytabs android library")
